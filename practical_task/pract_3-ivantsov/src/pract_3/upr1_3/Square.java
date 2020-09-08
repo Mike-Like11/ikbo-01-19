@@ -12,7 +12,22 @@ public class Square extends Rectangle {
         super(side, side, color, filled);
     }
 
+
+
+    @Override
+    public void setWidth(double width) {
+        super.setWidth(width);
+        super.setLength(width);
+    }
+
+    @Override
+    public void setLength(double length) {
+        super.setLength(length);
+        super.setWidth(length);
+    }
+
     public double getSide() {
+
         return super.getLength();
     }
     public  void setSide(double side) {

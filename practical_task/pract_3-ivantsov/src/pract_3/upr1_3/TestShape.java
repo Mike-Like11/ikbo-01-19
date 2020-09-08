@@ -62,5 +62,8 @@ public class TestShape {
         System.out.println(sq1.getLength());
         // Без ошибок, потому Square- наследник Rectangle
 
+
+
+
     }
 }
