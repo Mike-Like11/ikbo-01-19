@@ -3,15 +3,11 @@ package lab_3;
 public class Plate extends Dish {
     private  int radius;
 
-    public Plate(boolean broken, int weight) {
-        super(broken, weight);
-    }
-
     @Override
     public String toString() {
         return "Plate{" +
                 "radius=" + radius +
-                "broken='" + isBroken() + '\'' +
+                ", broken='" + isBroken() + '\'' +
                 ", weight=" + getWeight() +
                 '}';
     }
