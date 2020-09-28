@@ -16,7 +16,6 @@ public class Main {
         }
 
         u.moveToBack(u.remove());
-
         System.out.println(iw.toString()+" "+iw.contains(10));
         System.out.println(b.toString());
         System.out.println(u.toString());

@@ -29,7 +29,7 @@ public class Main {
                 a1.addLast(a);
                 a2.addLast(b);
             }
-            if(a>b || (a==0 && b==9)){
+            if(((a>b)&&(a!=9 && b!=0)) || (a==0 && b==9)){
                 a1.addLast(a);
                 a1.addLast(b);
             }
@@ -49,12 +49,7 @@ public class Main {
             System.out.println("first "+i);
         }
         else {
-            if(i<106) {
-                System.out.println("draw");
-            }
-            else {
                 System.out.println("botva");
-            }
         }
         }
     }
