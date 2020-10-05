@@ -39,20 +39,6 @@ public class Player {
         return this.getAge() - p.getAge();
     }
 
-    public static Comparator<Player> PlayerComparator
-            = new Comparator<Player>() {
-
-        public int compare(Player p1, Player p2) {
-
-            //ascending order
-            return p1.compareTo(p2);
-
-            //descending order
-            //return fruitName2.compareTo(fruitName1);
-        }
-
-    };
-
     @Override
     public String toString() {
         return "Player{" +
