@@ -7,14 +7,13 @@ public interface Order {
     int removall(String itemName);
     int removall(Item item);
     int numOfOrders();
-    Object[] getArray();
+    Item[] getArray();
     int costTotal();
-    String[] itemsNames();
+    String[]  itemsNames();
     int itemsQuantity();
     int itemsQuantity(String itemName);
     int itemsQuantity(Item item);
     Item[] getItems();
-    Item[] sortedItemsByCostDesc();
-
+    Object[] sortedItemsByCostDesc();
 
 }
